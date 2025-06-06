@@ -2,7 +2,7 @@ services:
   frontend:
     build: ../frontend
     environment:
-      - VITE_API_HOST=https://docs-gpt-api.chaincart.io/
+      - VITE_API_HOST=https://docs-gpt-api.chaincart.io
       - VITE_API_STREAMING=$VITE_API_STREAMING
     ports:
       - "5173:5173"
