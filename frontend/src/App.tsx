@@ -42,7 +42,7 @@ function MainLayout() {
             ? `ml-0 ${!navOpen ? 'lg:mx-auto' : 'lg:ml-72'}`
             : 'ml-0 lg:ml-16'
         }`}
-      >
+      > 
         <Outlet />
       </div>
     </div>
